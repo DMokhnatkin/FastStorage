@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FastStorage.Algorithms\FastStorage.Algorithms.csproj">
+      <Project>{2080B18E-350F-40AE-BC71-243DEAD45E04}</Project>
+      <Name>FastStorage.Algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FastStorage.Core\FastStorage.Core.csproj">
+      <Project>{4E1958CE-D026-4974-A362-956EF7FCC2F2}</Project>
+      <Name>FastStorage.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

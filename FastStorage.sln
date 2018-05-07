@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastStorage", "FastStorage\FastStorage.csproj", "{AAB0D332-69BB-430E-900F-BE55E97D398E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Test", "FastStorage.Test\FastStorage.Test.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Algorithms", "FastStorage.Algorithms\FastStorage.Algorithms.csproj", "{2080B18E-350F-40AE-BC71-243DEAD45E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Indices", "FastStorage.Indices\FastStorage.Indices.csproj", "{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Core", "FastStorage.Core\FastStorage.Core.csproj", "{4E1958CE-D026-4974-A362-956EF7FCC2F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Algorithms.Test", "FastStorage.Algorithms.Test\FastStorage.Algorithms.Test.csproj", "{1EA693C4-4AF8-4DCF-95F5-381ED447D340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastStorage.Core.Test", "FastStorage.Core.Test\FastStorage.Core.Test.csproj", "{31548D36-D994-4C76-A714-1203ECBB5776}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAB0D332-69BB-430E-900F-BE55E97D398E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB0D332-69BB-430E-900F-BE55E97D398E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB0D332-69BB-430E-900F-BE55E97D398E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB0D332-69BB-430E-900F-BE55E97D398E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2080B18E-350F-40AE-BC71-243DEAD45E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2080B18E-350F-40AE-BC71-243DEAD45E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2080B18E-350F-40AE-BC71-243DEAD45E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2080B18E-350F-40AE-BC71-243DEAD45E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E1958CE-D026-4974-A362-956EF7FCC2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1958CE-D026-4974-A362-956EF7FCC2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1958CE-D026-4974-A362-956EF7FCC2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1958CE-D026-4974-A362-956EF7FCC2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA693C4-4AF8-4DCF-95F5-381ED447D340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA693C4-4AF8-4DCF-95F5-381ED447D340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA693C4-4AF8-4DCF-95F5-381ED447D340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA693C4-4AF8-4DCF-95F5-381ED447D340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31548D36-D994-4C76-A714-1203ECBB5776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31548D36-D994-4C76-A714-1203ECBB5776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31548D36-D994-4C76-A714-1203ECBB5776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31548D36-D994-4C76-A714-1203ECBB5776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F30CC0D-96AB-4208-9271-8E6AF877B141}
+	EndGlobalSection
+EndGlobal

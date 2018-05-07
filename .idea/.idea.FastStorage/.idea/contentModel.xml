@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Dmitriy\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.reporters.netstandard15.dll" t="Include" />
+    <e p="C:\Users\Dmitriy\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.utility.netstandard15.dll" t="Include" />
+    <e p="C:\Users\Dmitriy\.nuget\packages\xunit.runner.visualstudio\2.2.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\Dmitriy\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_FastStorage.817482460.00" t="ExcludeRecursive" />
+    <e p="D:\projects\c#\FastStorage" t="IncludeFlat">
+      <e p="FastStorage" t="IncludeRecursive">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Builders" t="Include">
+          <e p="FastCollectionBuilder.cs" t="Include" />
+        </e>
+        <e p="Collection" t="Include">
+          <e p="FastCollection.cs" t="Include" />
+          <e p="FastCollectionItems.cs" t="Include" />
+          <e p="IIndicesCoverage.cs" t="Include" />
+          <e p="IndicesCoverage.cs" t="Include" />
+        </e>
+        <e p="Core" t="Include">
+          <e p="Enumerable" t="Include">
+            <e p="FastCollectionIterator.cs" t="Include" />
+            <e p="FastCollectionLazyIterator.cs" t="Include" />
+            <e p="IFastCollectionEnumerable.cs" t="Include" />
+            <e p="IFastCollectionIterator.cs" t="Include" />
+          </e>
+          <e p="FastCollectionItem.cs" t="Include" />
+          <e p="IFastCollection.cs" t="Include" />
+          <e p="IOperation.cs" t="Include" />
+        </e>
+        <e p="Execution" t="Include">
+          <e p="BuiltInExecutors" t="Include">
+            <e p="HashTableExecutor.cs" t="Include" />
+            <e p="HashTableExecutorModule.cs" t="Include" />
+            <e p="RBTreeExecutor.cs" t="Include" />
+            <e p="RBTreeExecutorsModule.cs" t="Include" />
+          </e>
+          <e p="ExecutorsCore" t="Include">
+            <e p="AvailableExecutorsCollection.cs" t="Include" />
+            <e p="Complexity" t="Include">
+              <e p="ComplexityConstants.cs" t="Include" />
+              <e p="IComplexity.cs" t="Include" />
+            </e>
+            <e p="ExecutorsManager.cs" t="Include" />
+            <e p="IOperationExecutor.cs" t="Include" />
+            <e p="IOperationExecutorModule.cs" t="Include" />
+            <e p="PreparedExecution.cs" t="Include" />
+          </e>
+          <e p="FiltersExecutionPipeline.cs" t="Include" />
+          <e p="FiltersExecutor.cs" t="Include" />
+        </e>
+        <e p="Expressions" t="Include">
+          <e p="EqualityComparer" t="Include">
+            <e p="ComparableExpression.cs" t="Include" />
+            <e p="CompareExpressionsExtensions.cs" t="Include" />
+            <e p="ExpressionEqualityComparer.cs" t="Include" />
+            <e p="ExpressionHashCodeCalculator.cs" t="Include" />
+            <e p="HashCodeHelper.cs" t="Include" />
+            <e p="ToComparableTransformVisitor.cs" t="Include" />
+          </e>
+          <e p="Filters" t="Include">
+            <e p="BaseFiltersParser.cs" t="Include" />
+            <e p="BaseFiltersProcessor.cs" t="Include" />
+            <e p="ComparisonFilter.cs" t="Include" />
+            <e p="CompoundFilter.cs" t="Include" />
+            <e p="FiltersCoveredExpression.cs" t="Include" />
+            <e p="FiltersParser.cs" t="Include" />
+            <e p="IFilter.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="ExpressionNodeReplacer.cs" t="Include" />
+            <e p="LambdaParametersReplacer.cs" t="Include" />
+          </e>
+          <e p="LinqVisitor" t="Include">
+            <e p="LinqExpressionVisitor.cs" t="Include" />
+            <e p="LinqExpressionWrapper.cs" t="Include" />
+            <e p="LinqMethodsRegistry.cs" t="Include" />
+          </e>
+          <e p="OperationTargets" t="Include">
+            <e p="CoverOperationTargetsVisitor.cs" t="Include" />
+            <e p="FastCollectionReferenceExpression.cs" t="Include" />
+            <e p="IOperationTarget.cs" t="Include" />
+            <e p="OperationTarget.cs" t="Include" />
+            <e p="OperationTargetBuilder.cs" t="Include" />
+            <e p="SelectorTransformer.cs" t="Include" />
+            <e p="TargetsCoveredExpression.cs" t="Include" />
+          </e>
+        </e>
+        <e p="FastStorage.csproj" t="IncludeRecursive" />
+        <e p="Linq" t="Include">
+          <e p="AsEnumerable.cs" t="Include" />
+          <e p="Select.cs" t="Include" />
+          <e p="ToCollection.cs" t="Include" />
+          <e p="Where.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FastStorage.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FastStorage.Algorithms" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FastStorage.Algorithms.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FastStorage.Algorithms.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RedBlackTree.cs" t="Include" />
+        <e p="RedBlackTree_Range.cs" t="Include" />
+        <e p="TreeHelpers" t="Include">
+          <e p="BinTreeTraversal.cs" t="Include" />
+          <e p="IBinNode.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FastStorage.Algorithms.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FastStorage.Algorithms.Test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="FastStorage.Algorithms.Test.AssemblyInfo.cs" t="Include" />
+              <e p="FastStorage.Algorithms.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RedBlackTreeRangeTest.cs" t="Include" />
+        <e p="RedBlackTreeTest.cs" t="Include" />
+      </e>
+      <e p="FastStorage.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Collections" t="Include">
+          <e p="MultiValueDictionary.cs" t="Include" />
+        </e>
+        <e p="FastStorage.Core.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="CommonHelpers.cs" t="Include" />
+        </e>
+        <e p="Indices" t="Include">
+          <e p="IIndex.cs" t="Include" />
+          <e p="IIndexFactory.cs" t="Include" />
+          <e p="IIndexItem.cs" t="Include" />
+          <e p="IndexHelpers.cs" t="Include" />
+          <e p="IndexItem.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FastStorage.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ObjectReferenceEqualityComparer.cs" t="Include" />
+      </e>
+      <e p="FastStorage.Core.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Collections" t="Include">
+          <e p="MultiValueDictionaryTest.cs" t="Include" />
+        </e>
+        <e p="FastStorage.Core.Test.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="FastStorage.Core.Test.AssemblyInfo.cs" t="Include" />
+              <e p="FastStorage.Core.Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="FastStorage.Indices" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FastStorage.Indices.csproj" t="IncludeRecursive" />
+        <e p="HashTableIndex.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="FastStorage.Indices.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RedBlackTreeIndex.cs" t="Include" />
+      </e>
+      <e p="FastStorage.sln" t="IncludeFlat" />
+      <e p="FastStorage.Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BuilderTest.cs" t="Include" />
+        <e p="Execution" t="Include">
+          <e p="FiltersExecutionPipelineTest.cs" t="Include" />
+        </e>
+        <e p="Expressions" t="Include">
+          <e p="EqualityComparer" t="Include">
+            <e p="ExpressionEqualityComparerTest.cs" t="Include" />
+          </e>
+          <e p="Filters" t="Include">
+            <e p="FiltersParserTest.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="ExpressionNodeReplacerTest.cs" t="Include" />
+            <e p="LambdaParametersReplacerTest.cs" t="Include" />
+          </e>
+          <e p="OperationTargets" t="Include" />
+        </e>
+        <e p="FastStorage.Test.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="StubClass.cs" t="Include" />
+          <e p="StubOperationTarget.cs" t="Include" />
+        </e>
+        <e p="IndexTests" t="Include">
+          <e p="KeyIndexTest.cs" t="Include" />
+        </e>
+        <e p="Linq" t="Include">
+          <e p="KmuTests.cs" t="Include" />
+          <e p="LinqTest1.cs" t="Include" />
+          <e p="ProjectionOperationsTest.cs" t="Include" />
+          <e p="RestrictionOperatorsTest.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

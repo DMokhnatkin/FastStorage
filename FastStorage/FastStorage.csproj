@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.4.2.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FastStorage.Core\FastStorage.Core.csproj">
+      <Project>{4E1958CE-D026-4974-A362-956EF7FCC2F2}</Project>
+      <Name>FastStorage.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FastStorage.Indices\FastStorage.Indices.csproj">
+      <Project>{F0FA2DFF-D473-40C4-89C6-F1B1212D8F6F}</Project>
+      <Name>FastStorage.Indices</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
